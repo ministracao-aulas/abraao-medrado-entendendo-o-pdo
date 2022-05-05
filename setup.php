@@ -18,7 +18,10 @@ $queries = [
     )',
 ];
 
-foreach ($queries as $query) {
+echo PHP_EOL;
+foreach ($queries as $key => $query) {
+    echo "Running {$key}".PHP_EOL;
     $stmt = $pdo->prepare($query);
     $stmt->execute();
 }
+echo PHP_EOL;
