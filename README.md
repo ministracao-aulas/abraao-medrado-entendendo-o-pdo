@@ -23,3 +23,8 @@ Depois de prover o projeto, abra no navegador `http://127.0.0.1:8000`;
 ```sh
 php ./setup.php
 ```
+
+- Se quiser alguns registros de exemplo execute:
+```sh
+php ./seed-fake-data.php
+```
